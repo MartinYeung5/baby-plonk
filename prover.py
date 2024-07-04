@@ -6,7 +6,6 @@ from dataclasses import dataclass
 from transcript import Transcript, Message1, Message2, Message3, Message4, Message5
 from poly import Polynomial, Basis
 
-
 @dataclass
 class Proof:
     msg_1: Message1
